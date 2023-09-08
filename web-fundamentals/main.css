@@ -1,12 +1,37 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   background: crimson;
 }
 
 .class-style {
   background: violet;
+  padding: 15px;
+}
+.entry-label {
+  font-size: 15px;
+  font-weight: 900;
+  padding-right: 10px;
 }
 
+.entry {
+  font-size: 15px;
+  padding: 10px;
+  width: 250px;
+}
+
+.submit {
+  font-size: 15px;
+  padding: 10px;
+}
 #id-style {
-  background: dodgerblue;
+  color: white;
+  font-size: 60px;
 }
-
